@@ -23,8 +23,8 @@ class Building:  # Define class 'Building'
 
 obj1 = Building('wood', 'brown', -20)   # create first object of the class "Building
 obj2 = Building('stone', 'grey', 10)   # create second object of the class "Building
-obj3 = Building('stone', 'grey', 110)   # create second object of the class "Building
+obj3 = Building('stone', 'grey', 110)   # create third object of the class "Building
 
-obj1.place()
-obj2.place()
-obj3.place()
+obj1.place()  # 'Out of stock'
+obj2.place()  # 'Warehouse'
+obj3.place()  # 'Remote warehouse'
