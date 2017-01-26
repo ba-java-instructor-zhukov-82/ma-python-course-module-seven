@@ -38,7 +38,7 @@
 
 ####Here is the solution code:
 
-*solution_7_1_2.py*
+*buildings.py*
 ```python
 class Building:
 
@@ -90,6 +90,12 @@ class Building:
     def __str__(self):
         return 'Building:\n\tmaterial: {}\n\tcolor: {}\n\tnumber: {}\n'\
                .format(self.__material, self.__color, self.__number)
+
+```
+
+*buildings_test.py*
+```python
+from labs.work_7_1_2.solution_7_1_2.buildings import *
 
 
 brick = Building('brick', 'white', 300)  # create object for white brick with 300 as initial quantity
